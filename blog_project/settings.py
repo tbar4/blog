@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'blog.apps.BlogConfig', # new
     'accounts.apps.AccountsConfig', # new
-    'white.noise.runserver_nostatic', # new!
+    'whitenoise.runserver_nostatic', # new!
 
 ]
 
