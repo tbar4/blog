@@ -31,8 +31,9 @@ after_dark_menu = [
     {url = "$BASE_URL", name = "Home"},
     {url = "$BASE_URL/categories", name = "Categories"},
     {url = "$BASE_URL/tags", name = "Tags"},
+    {url = "$BASE_URL/atom", name = "RSS"}
 ]
-after_dark_title = "My Example Site"
+after_dark_title = "Trevor Barnes"
 
 # Nicer codeblocks with copy to clipboard 
 codeblock = true
