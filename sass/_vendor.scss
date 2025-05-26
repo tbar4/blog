@@ -30,7 +30,8 @@ h3,
 h4,
 h5,
 h6 {
-  line-height: 1.3em
+  line-height: 1.3em;
+  color: darkgreen;
 }
 
 fieldset {
@@ -57,14 +58,14 @@ pre code {
 
 a {
   cursor: pointer;
-  color: #ff2e88;
+  color: darkgreen;
   text-decoration: none;
-  border-bottom: 1px solid #ff2e88
+  border-bottom: 1px solid darkgreen
 }
 
 a:hover {
-  background-color: #ff2e88;
-  color: #fff
+  background-color: darkgreen;
+  color: darkgreen
 }
 
 .grid {
@@ -219,7 +220,8 @@ a:hover {
   font-style: normal;
   font-family:
     Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace, serif
+    Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    color: darkgreen;
 }
 
 .hack blockquote,
@@ -246,7 +248,7 @@ a:hover {
 .hack ul {
   float: none;
   margin: 0;
-  padding: 0
+  padding: 0;
 }
 
 .hack header+article {
@@ -259,7 +261,7 @@ a:hover {
 .hack p,
 .hack ul {
   margin-top: 20px;
-  margin-bottom: 20px
+  margin-bottom: 20px;
 }
 
 .hack h1 {
@@ -288,7 +290,8 @@ a:hover {
 .hack h5,
 .hack h6 {
   position: relative;
-  margin-bottom: 1.75rem
+  margin-bottom: 1.75rem;
+  color: darkgreen;
 }
 
 .hack h2:before,
@@ -296,43 +299,52 @@ a:hover {
 .hack h4:before,
 .hack h5:before,
 .hack h6:before {
-  display: inline
+  display: inline;
+  color: darkgreen;
 }
 
 .hack h2:before {
-  content: "## "
+  content: "## ";
+  color: darkgreen;
 }
 
 .hack h3:before {
-  content: "### "
+  content: "### ";
+  color: darkgreen;
 }
 
 .hack h4:before {
-  content: "#### "
+  content: "#### ";
+  color: darkgreen;
 }
 
 .hack h5:before {
-  content: "##### "
+  content: "##### ";
+  color: darkgreen;
 }
 
 .hack h6:before {
-  content: "###### "
+  content: "###### ";
+  color: darkgreen;
 }
 
 .hack li {
   position: relative;
   display: block;
-  padding-left: 20px
+  padding-left: 20px;
+  color: darkgreen;
 }
 
 .hack li:after {
   position: absolute;
   top: 0;
-  left: 0
+  left: 0;
+  color: darkgreen;
 }
 
 .hack ul>li:after {
-  content: "-"
+  content: "-";
+  color: darkgreen;
 }
 
 .hack ol {
@@ -365,7 +377,7 @@ a:hover {
   }
 
   a {
-    color: #FFE4EE;
+    color: darkgreen;
     font-weight: normal;
   }
 
@@ -1009,7 +1021,7 @@ select.form-control {
 .dark h3 a,
 .dark h4 a,
 .dark h5 a {
-  color: #ccc
+  color: darkgreen
 }
 
 .dark code,
