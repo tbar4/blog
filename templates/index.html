@@ -55,7 +55,7 @@
         <a itemprop="url"
           class="{% if item.url | replace(from='$BASE_URL', to=config.base_url)==current_url %}active{% endif %}"
           href="{{ item.url | safe | replace(from='$BASE_URL', to=config.base_url) | safe }}">
-          <span itemprop="name" style="color: darkgreen;">{{ item.name }}</span></a>
+          <span itemprop="name">{{ item.name }}</span></a>
         {% endfor %}
       </div>
     </nav>
